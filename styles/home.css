@@ -43,6 +43,12 @@ li{
 .container main{
     order: 2;
 }
+
+#banner{
+    width: 100vw;
+    margin: auto;
+    height: auto;
+}
 .news{
     padding: 20px;
     margin-top: -3rem;
@@ -82,4 +88,33 @@ footer{
     text-align: center;
     padding: 1rem;
     background-color: white;
+}
+
+@media screen and (max-width: 700px){
+    nav ul{
+        display: none;
+    }
+    .container{
+        display:block;
+        width: 90vw;
+    }
+    .news{
+        width: 100vw;
+    }
+    .lateral{
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .card{
+        margin: auto;
+        width: 33.333vw;
+        padding: 0%;
+        border-radius: 0;
+    }
+    footer{
+        background-color: #10053A;
+        color: white;
+    }
 }
