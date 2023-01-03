@@ -35,13 +35,12 @@ li{
     margin: auto;
 }
 .container{
-    
     width: 100vw;
     display: flex;
 }
 .container main{
     order: 2;
-    margin: auto;
+
 }
 .card{
     font-family: 'Inter';
