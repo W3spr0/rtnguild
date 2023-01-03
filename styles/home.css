@@ -45,7 +45,7 @@ li{
 }
 
 #banner{
-    width: 100vw;
+    width: 80vw;
     margin: auto;
     height: auto;
 }
@@ -91,30 +91,41 @@ footer{
 }
 
 @media screen and (max-width: 700px){
+    body{
+        padding: 5px;
+    }
     nav ul{
         display: none;
     }
     .container{
-        display:block;
+        flex-direction:column-reverse;
         width: 90vw;
     }
-    .news{
-        width: 100vw;
-    }
-    .lateral{
+    .container main{
         margin: auto;
-        display: flex;
-        justify-content: space-between;
-
+        order: 1;
+    }
+    .news{
+        width: 80vw;
+        padding: 30px;
+        order: 2;
     }
     .card{
-        margin: auto;
-        width: 33.333vw;
-        padding: 0%;
-        border-radius: 0;
+        margin: 1rem auto;
+        height: auto;
+        width: 80vw;
+        align-items: center;
+    }
+    .card img{
+        width: 75%;
+        height: auto;
+        max-width: none;
     }
     footer{
         background-color: #10053A;
         color: white;
+    }
+    nav{
+        height: 3rem;
     }
 }
