@@ -95,8 +95,9 @@ footer{
         display: none;
     }
     .container{
+        margin-top: 5rem;
         flex-direction:column-reverse;
-        width: 90vw;
+        width: 100vw;
     }
     .container main{
         margin: auto;
@@ -118,11 +119,6 @@ footer{
         height: auto;
         max-width: none;
     }
-    footer{
-        background-color: #10053A;
-        color: white;
-    }
-    nav{
-        height: 3rem;
-    }
+
+
 }
