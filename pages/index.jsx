@@ -11,6 +11,10 @@ function Home() {
       <div className="container">
         <main order>
           <Image src={banner} alt="Banner"/>
+          <div className="news">
+            <h1>Arena dragon:</h1>
+            <p>El evento sucedio el dia 30/12  a las 21:00(GMT-3) hasta 22:00(GMT-3) nuestro rival fue el gremio [W’R]Warrior Red del reino #1203 com mas de 500M de poder e 23 miembros participando. El gremio ganador fue el nuestro com una ventaja de 20k de pontos y com 19 miembros participando.</p>
+          </div>
         </main>
         <div className="lateral">
           <Link href="calendario">

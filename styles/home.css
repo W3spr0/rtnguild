@@ -42,7 +42,13 @@ li{
 }
 .container main{
     order: 2;
-
+}
+.news{
+    padding: 20px;
+    margin-top: -3rem;
+    background-color: white;
+    color: black;
+    width: 80vw;
 }
 .card{
     font-family: 'Inter';
