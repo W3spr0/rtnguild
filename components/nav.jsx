@@ -7,11 +7,11 @@ function Nav() {
   return (
     <>
     <nav>
-        <Image src={logo}alt="Logo fst" id='logo-img'/>
+        <Link href="/" className='link-logo'><Image src={logo}alt="Logo fst" id='logo-img'/></Link>
         <ul>
             <li><Link href="oi">Calendario</Link></li>
             <li><Link href="oi">Reclutamiento</Link></li>
-            <li><Link href="oi">Guia</Link></li>
+            <li><Link href="guia">Guia</Link></li>
         </ul>
         
     </nav>
