@@ -19,7 +19,7 @@ export default function Guia() {
                 <div className="cards">
                 <Link href="mastercook">
                     <div className="card-guia">
-                        <Image src={mastercook}/>
+                        <Image src={mastercook} alt="mastercook"/>
                         <h1>Desafio Limitado: Chef Loco</h1>
                         <p></p>
                     </div>
