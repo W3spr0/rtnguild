@@ -20,7 +20,7 @@ export default function Mastercook() {
                 <h1>Desafio Limitado: Chef Loco (Hasta 06/01/23)</h1>
             <p>Como pasar todas las etapas de chef loco sin y com caballera de la rosa desafío limitado maestro cocinero ramos</p>
             <Image src={mastercook} alt="mastercook"/>
-            <h2>Etapa 1</h2>
+             <h2>Etapa 1</h2>
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/6ipM4Yhaadg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <h2>Etapa 2</h2>
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/-QBmabmayx8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
