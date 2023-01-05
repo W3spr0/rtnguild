@@ -18,45 +18,55 @@ export default function Mastercook() {
         <h1>Guia</h1>
         <div className="container">
             <main>
-                <Image src={banner} alt="Banner" id="banner"/>
-                <div className="news">
-                <h1>Desafio Limitado: Chef Loco (Hasta 06/01/23)</h1>
-            <p>Como pasar todas las etapas de chef loco sin y com caballera de la rosa desafío limitado maestro cocinero ramos</p>
-            <Image src={mastercook} alt="mastercook"/>
-            <div className="etapas">
-              <div className="etapa">
-                <h2>Etapa 1</h2>
-                <h3>Heroes recomendados</h3>
-                <ul className='list'>
-                  <li>Prima Donna (Felicia)</li>
-                  <li>Reina de la Nieve (Alice)</li>
-                </ul>
-                <Image class="fullWidth" src={mastercook1 }/>
-                <br />
-                <a href="https://youtu.be/6ipM4Yhaadg" target="_blank" rel="noopener noreferrer">Clique aqui para ver un video</a>
-                <iframe width="80%" height="auto" src="https://www.youtube.com/embed/6ipM4Yhaadg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <Image src={banner} alt="Banner" id="banner"/>
+              <div className="news">
+                <div className="sec">
+                  <h1>Desafio Limitado: Chef Loco (Hasta 06/01/23)</h1>
+                  <p>Como pasar todas las etapas de chef loco sin y com caballera de la rosa desafío limitado maestro cocinero ramos</p>
+                </div>
+                <div className="sec">
+                  <h2>Etapas:</h2>
+                  <ul>
+                    <li><Link href="#etapa1">Etapa 1</Link></li>
+                    <li><Link href="#etapa2">Etapa 2</Link></li>
+                    <li><Link href="">Etapa 3</Link></li>
+                    <li><Link href="">Etapa 4</Link></li>
+                    <li><Link href="">Etapa 5</Link></li>
+                    <li><Link href="">Etapa 6</Link></li>
+                  </ul>
+                </div>
+                <div id='etapa1' className="sec">
+                  <h2 >Etapa 1</h2>
+                  <h3>Heroes recomendados</h3>
+                  <Image class="fullWidth" src={mastercook1 }/>
+                  <br />
+                  <ul className='list'>
+                    <li>Prima Donna (Felicia)</li>
+                    <li>Reina de la Nieve (Alice)</li>
+                  </ul>
+                </div>
+                <div id='etapa2'className="sec">
+                  <h2>Etapa 2</h2>
+                  <h3>Heroes recomendados primera composicion:</h3>
+                  <Image class="fullWidth" src={mastercook2}/><br />
+                  
+                  <a href="https://youtu.be/-QBmabmayx8" target="_blank" rel="noopener noreferrer">Video de la pimera composicion</a><br />
+                  <ul className='list'>
+                    <li>Prima Donna (Felicia)</li>
+                    <li>Estafador (Chismoso)</li>
+                    <li>Cuerno Nocturno (Ícaro)</li>
+                  </ul>
               </div>
-              <div className="etapa">
-                <h2>Etapa 2</h2>
-                <h3>Heroes recomendados primera composicion:</h3>
-                <ul className='list'>
-                  <li>Prima Donna (Felicia)</li>
-                  <li>Estafador (Chismoso)</li>
-                  <li>Cuerno Nocturno (Ícaro)</li>
-                </ul>
-                <Image class="fullWidth" src={mastercook2}/><br />
-                <a href="https://youtu.be/-QBmabmayx8" target="_blank" rel="noopener noreferrer">Video de la pimera composicion</a>
-                <hr />
+              <div className="sec">
                 <h3>Heroes recomendados segunda composicion:</h3>
-                <ul className='list'>
-                  <li>Prima Donna (Felicia)</li>
-                  <li>Estafador (Chismoso)</li>
-                  <li>Hijo de la Luz (Sparky)</li>
-                </ul>
-                <Image class="fullWidth" src={mastercook2_2}/><br />
-                <a href="https://youtu.be/9tnN0aIOUiw" target="_blank" rel="noopener noreferrer">Video de la segunda composicion</a>
+                  <Image class="fullWidth" src={mastercook2_2}/><br />
+                  <a href="https://youtu.be/9tnN0aIOUiw" target="_blank" rel="noopener noreferrer">Video de la segunda composicion</a>
+                  <ul className='list'>
+                    <li>Prima Donna (Felicia)</li>
+                    <li>Estafador (Chismoso)</li>
+                    <li>Hijo de la Luz (Sparky)</li>
+                  </ul>
               </div>
-             </div>
             <h2>Etapa 3</h2>
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/OcspZRMfpS8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/gdSP20jN5BI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

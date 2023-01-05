@@ -127,19 +127,22 @@ footer{
     padding: 1rem;
     background-color: white;
 }
-.etapas{
-    display: flex;
-}
-.etapa{
-    background-color: whitesmoke;
-    text-align: center;
-    box-shadow: 0px 0px 20px black;
-    border-radius: 10px;
-    margin: 2rem 0.5rem;
-    width: 50%;
-    
+
+.sec{
+    margin-bottom: 30px;
 }
 
+.sec li{
+    margin-left:2vw;
+    color:#10053A;
+    font-weight: bold;
+}
+
+.fullWidth{
+    margin: auto;
+    width: 50%;
+    height: auto;
+}
 @media screen and (max-width: 700px){
     nav ul{
         display: none;
@@ -171,26 +174,18 @@ footer{
         align-items: center;
     }
     .card img{
-        width: 75%;
+        width: 50%;
         height: auto;
         max-width: none;
     }
-    .etapas{
-        display: block;
+    .fullWidth{
+        margin: auto;
+        width: 100%;
+        height: auto;
     }
-    .etapa{
-    width: 100%;
-    margin: 3rem 0rem;
 }
 
 
-}
-
-.fullWidth{
-    margin: auto;
-    width: 80%;
-    height: auto;
-}
 
 
 
