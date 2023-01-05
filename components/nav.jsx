@@ -7,7 +7,7 @@ function Nav() {
   return (
     <>
     <nav>
-        <Link href="/" className='link-logo'><Image src={logo}alt="Logo fst" id='logo-img'/></Link>
+    <h1><Link href="/" className='link-logo'>FsT</Link></h1>
         <ul>
             <li><Link href="oi">Calendario</Link></li>
             <li><Link href="oi">Reclutamiento</Link></li>

@@ -1,21 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 body{
-    background: #10053A;
+    background-color: #F5F5F5;
+    color: black;
     color: #fff;
+    font-family: 'Roboto', sans-serif;
 }
-
 nav{
+    color: #fff;
     position: fixed;
     top: 0;
-    color: black;
     width: 100vw;
-    height: 2rem;
     margin: auto;
+    padding: 10px;
     align-items: center;
     display:flex;
     justify-content: space-evenly;
-    background-color: #F5F5F5;;
+    font-family: 'Roboto', sans-serif;
+    background: #10053A;
 }
-
 nav ul{
     display: flex;
     list-style: none;
@@ -29,7 +31,10 @@ nav ul li{
     font-size: 20px;
     line-height: 24px;
     text-align: center;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
 #logo-img{
     width: auto;
@@ -45,7 +50,7 @@ nav ul li{
     display: flex;
 }
 .container main{
-    order: 2;
+    margin: auto;
 }
 
 #banner{
@@ -61,7 +66,7 @@ nav ul li{
     width: 80vw;
 }
 .card{
-    font-family: 'Inter';
+    font-weight: bold;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
@@ -69,7 +74,6 @@ nav ul li{
     text-align: center;
     letter-spacing: 0.04em;    
     color: black;
-    background-color: white;
 
     padding:20px;
     border-radius: 10px;
@@ -163,7 +167,7 @@ footer{
     .card-guia{
         margin: 1rem auto;
         height: auto;
-        width: 80vw;
+        width: 100%;
         align-items: center;
     }
     .card img{
