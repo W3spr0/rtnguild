@@ -48,13 +48,14 @@ nav ul li{
     margin-top:3rem;
     width: 100vw;
     display: flex;
+    justify-content: space-between;
 }
 .container main{
     margin: auto;
 }
 
 #banner{
-    width: 80vw;
+    width: 70vw;
     margin: auto;
     height: auto;
 }
@@ -63,7 +64,10 @@ nav ul li{
     margin-top: -3rem;
     background-color: white;
     color: black;
-    width: 80vw;
+    width: 70vw;
+}
+.lateral{
+    margin:0 auto;
 }
 .card{
     font-weight: bold;
@@ -74,7 +78,6 @@ nav ul li{
     text-align: center;
     letter-spacing: 0.04em;    
     color: black;
-
     padding:20px;
     border-radius: 10px;
     margin:1rem;

@@ -10,7 +10,8 @@ import mastercook from'../../public/mastercook.webp'
 import mastercook1 from'../../public/mastercook-1.png'
 import mastercook2 from'../../public/mastercook-2.png'
 import mastercook2_2 from'../../public/mastercook-2-2.png'
-
+import mastercook3 from'../../public/mastercook-3.png'
+import mastercook3_3 from'../../public/mastercook-3-3.png'
 
 export default function Mastercook() {
   return (
@@ -29,7 +30,7 @@ export default function Mastercook() {
                   <ul>
                     <li><Link href="#etapa1">Etapa 1</Link></li>
                     <li><Link href="#etapa2">Etapa 2</Link></li>
-                    <li><Link href="">Etapa 3</Link></li>
+                    <li><Link href="#etapa3">Etapa 3</Link></li>
                     <li><Link href="">Etapa 4</Link></li>
                     <li><Link href="">Etapa 5</Link></li>
                     <li><Link href="">Etapa 6</Link></li>
@@ -67,9 +68,27 @@ export default function Mastercook() {
                     <li>Hijo de la Luz (Sparky)</li>
                   </ul>
               </div>
-            <h2>Etapa 3</h2>
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/OcspZRMfpS8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/gdSP20jN5BI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <div id='etapa3' className="sec">
+              <h2>Etapa 3</h2>
+              <h3>Heroes recomendados primera composicion:</h3>
+                  <Image class="fullWidth" src={mastercook3}/><br />
+                  <a href="https://www.youtube.com/embed/OcspZRMfpS8" target="_blank" rel="noopener noreferrer">Video de la segunda composicion</a>
+                  <ul className='list'>
+                    <li>Prima Donna (Felicia)</li>
+                    <li>Guardián (Wesley)</li>
+                    <li>Escudero del mar (Lochfin)</li>
+                  </ul>
+              </div>
+              <div className="sec">
+                <h3>Heroes recomendados segunda composicion:</h3>
+                  <Image class="fullWidth" src={mastercook3_3}/><br />
+                  <a href="https://www.youtube.com/embed/gdSP20jN5BI" target="_blank" rel="noopener noreferrer">Video de la segunda composicion</a>
+                  <ul className='list'>
+                    <li>Prima Donna (Felicia)</li>
+                    <li>Guardián (Wesley)</li>
+                    <li>Hijo de la Luz (Sparky)</li>
+                  </ul>
+              </div>
             <h2>Etapa 4</h2>
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/0S8ycMN5RHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/YUMSap6Em4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
