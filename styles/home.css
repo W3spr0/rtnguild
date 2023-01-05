@@ -16,12 +16,12 @@ nav{
     background-color: #F5F5F5;;
 }
 
-ul{
+nav ul{
     display: flex;
     list-style: none;
 
 }
-li{
+nav ul li{
     margin: 0 20px;
     font-family: 'Inter';
     font-style: normal;
@@ -123,6 +123,18 @@ footer{
     padding: 1rem;
     background-color: white;
 }
+.etapas{
+    display: flex;
+}
+.etapa{
+    background-color: whitesmoke;
+    text-align: center;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 10px;
+    margin: 2rem 0.5rem;
+    width: 50%;
+    
+}
 
 @media screen and (max-width: 700px){
     nav ul{
@@ -159,6 +171,26 @@ footer{
         height: auto;
         max-width: none;
     }
+    .etapas{
+        display: block;
+    }
+    .etapa{
+    width: 100%;
+    margin: 3rem 0rem;
+}
 
 
+}
+
+.fullWidth{
+    margin: auto;
+    width: 80%;
+    height: auto;
+}
+
+
+
+
+.etapa ul{
+    list-style: none;
 }

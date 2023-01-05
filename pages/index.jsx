@@ -19,11 +19,11 @@ function Home() {
             <p>El evento sucedio el dia 30/12  a las 21:00(GMT-3) hasta 22:00(GMT-3) nuestro rival fue el gremio [W’R]Warrior Red del reino #1203 com mas de 500M de poder e 23 miembros participando. El gremio ganador fue el nuestro com una ventaja de 20k de pontos y com 19 miembros participando.</p>
             <div className="cards">
                 <Link href="guia/mastercook">
-                    <div className="card-guia">
+
                         <Image src={mastercook}/>
                         <h1>Desafio Limitado: Chef Loco</h1>
                         <p></p>
-                    </div>
+
                 </Link>
                 </div>
           </div>
