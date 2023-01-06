@@ -159,6 +159,9 @@ footer{
         margin: auto;
         order: 1;
     }
+    #banner{
+        width: 80vw;
+    }
     .news{
         width: 80vw;
         padding: 30px;
