@@ -54,7 +54,7 @@ function Home() {
             <Link href="guia">            
               <div className="card">
                 <Image src={guia} alt="Guia"/>
-                <p>Guia</p>
+                <p>Guias</p>
               </div>
             </Link>
         </div>
