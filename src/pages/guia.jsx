@@ -2,11 +2,11 @@ import React from 'react'
 import Link from 'next/link'
 
 import Image from 'next/image'
-import banner from  '../public/banner-guias.png'
-import events from '../public/events.png'
-import guia from '../public/guia.png'
-import recruit from '../public/recruit.webp'
-import mastercook from'../public/mastercook.webp'
+import banner from  '../../public/banner-guias.png'
+import events from '../../public/events.png'
+import guia from '../../public/guia.png'
+import recruit from '../../public/recruit.webp'
+import mastercook from'../../public/mastercook.webp'
 
 
 export default function Guia() {
